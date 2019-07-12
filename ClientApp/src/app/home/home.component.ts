@@ -1,4 +1,4 @@
-import { Component, OnInit, Injectable } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,9 +6,6 @@ import { Component, OnInit, Injectable } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 
-@Injectable({
-  providedIn: 'root',
-})
 export class HomeComponent implements OnInit {
 
   constructor() { }

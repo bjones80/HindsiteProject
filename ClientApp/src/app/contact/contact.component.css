@@ -1,5 +1,5 @@
 .office-image{
-    background-image: url(../../assets/contact/officeView.png);
+    background-image: url('../../assets/contact/officeView.png');
     /* height: 50%; */
     /* background-position: center; */
     background-repeat: no-repeat;

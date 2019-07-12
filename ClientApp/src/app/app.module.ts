@@ -5,10 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
@@ -38,6 +35,7 @@ import { YepDefinitionComponent } from './yep/yep-definition/yep-definition.comp
 import { ClientsTableComponent } from './clients/clients-table/clients-table.component';
 import { ClientsLoginComponent } from './clients/clients-login/clients-login.component';
 
+
 const appRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
@@ -66,10 +64,7 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    NavMenuComponent,
     HomeComponent,
-    CounterComponent,
-    FetchDataComponent,
     HeaderComponent,
     AboutComponent,
     ServicesComponent,
